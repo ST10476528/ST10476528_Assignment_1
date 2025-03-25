@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/easy_chicken_caesar_salad_wrap"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="239dp"
+        android:layout_height="66dp"
+        android:background="#EDF2E8"
+        android:fontFamily="@font/racing_sans_one"
+        android:text="DIET MANIA"
+        android:textColor="#4B8508"
+        android:textSize="42sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
+
+    <EditText
+        android:id="@+id/editTextView"
+        android:layout_width="344dp"
+        android:layout_height="61dp"
+        android:background="#EFE7E7"
+        android:backgroundTint="#EFE7E7"
+        android:ems="10"
+        android:fontFamily="@font/racing_sans_one"
+        android:inputType="text"
+        android:text="Enter Time of Day"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.618" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="113dp"
+        android:layout_height="66dp"
+        android:background="#3C471B"
+        android:backgroundTint="#3C471B"
+        android:text="Reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.221"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextView"
+        app:layout_constraintVertical_bias="0.484" />
+
+    <Button
+        android:id="@+id/AccButton"
+        android:layout_width="114dp"
+        android:layout_height="67dp"
+        android:background="#3C471B"
+        android:backgroundTint="#3C471B"
+        android:text="Accept"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toEndOf="@+id/resetButton"
+        app:layout_constraintTop_toBottomOf="@+id/editTextView"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="266dp"
+        android:layout_height="166dp"
+        android:background="#EDF2E8"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
