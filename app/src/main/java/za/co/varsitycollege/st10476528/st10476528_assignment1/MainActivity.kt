@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
                 editTextView.text.toString() == "Morning" -> textView2.text =
                     "eggs and toast with coffee"
 
-                editTextView.text.toString() == "Mid Morning" -> textView2.text = "Fruit"
+                editTextView.text.toString() == "Mid Morning" -> textView2.text = "Fruit and vegetable"
                 editTextView.text.toString() == "Afternoon" -> textView2.text = "Sandwitch and a salad"
                 editTextView.text.toString() == "Mid Afternoon" -> textView2.text = "Proteinshake"
                 editTextView.text.toString() == "Dinner" -> textView2.text = "Pasta and chicken salad "
                 //incorrect text response
-                else -> Toast.makeText(this, "Whatever error", Toast.LENGTH_LONG).show()
+                else -> Toast.makeText(this, "Incorrect input", Toast.LENGTH_LONG).show()
             }
 
             ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
