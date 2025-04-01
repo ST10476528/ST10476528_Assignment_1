@@ -41,7 +41,8 @@ The purpose of the app is to provide the user with the ability to generate a mea
 - Easy to read
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2025-04-01 164758](https://github.com/user-attachments/assets/99bf8e8a-0374-44aa-a620-ec33493a901a)
+
 
 
 ## Links
