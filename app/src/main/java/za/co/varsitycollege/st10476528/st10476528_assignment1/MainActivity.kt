@@ -23,8 +23,9 @@ class MainActivity : AppCompatActivity() {
         val textView2 = findViewById<TextView>(R.id.textView2)
 
         //button Response
-        resetButton?.setOnClickListener {
+        resetButton.setOnClickListener {
             editTextView.text.clear()
+            textView2.text = "Meal suggestion will appear here"
         }
 
         //
