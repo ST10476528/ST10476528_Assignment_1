@@ -59,5 +59,10 @@ YouTube URL:
 
 https://youtube.com/shorts/eLodAxzNGeo?si=_t8407NSoEK3AyNg
 
+##Readme PDF:
+
+https://advtechonline-my.sharepoint.com/:b:/g/personal/st10476528_vcconnect_edu_za/EV9-9YCWfHZHpua7PGZlooQB2jxH71VmMXVo-Fpm6kaZGw?e=0ZXz1q
+
+
 
 
