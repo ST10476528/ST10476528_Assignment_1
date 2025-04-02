@@ -46,4 +46,18 @@ The purpose of the app is to provide the user with the ability to generate a mea
 
 
 ## Links
-## github utilization
+##Reference List:
+ 
+ 
+https://za.pinterest.com/search/my_pins/?q=food%20pictures%20chicken%20wraps&rs=typed 
+[Background image Accessed 10:36 25/03]
+ 
+ 
+https://chatgpt.com/c/67ed84cc-91ac-8002-adcb-1e06ae3ab0e4  [Ai reference Accessed 9:08 03/04]
+
+YouTube URL:
+
+https://youtube.com/shorts/eLodAxzNGeo?si=_t8407NSoEK3AyNg
+
+
+
